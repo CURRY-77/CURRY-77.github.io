@@ -1,73 +1,66 @@
 # Club Management System
 
-A web-based platform for managing college clubs, events, and hackathons, designed to enhance student engagement and streamline club-related activities across the campus.
+A web application for managing college clubs, events, and hackathons, enhancing student engagement and streamlining organizational activities.
 
 ---
 
 ## Table of Contents
 
-- [Project Motivation (Why?)](#project-motivation-why)
-- [Project Overview (What?)](#project-overview-what)
+- [Motivation (Why?)](#motivation-why)
+- [Overview (What?)](#overview-what)
 - [Folder Structure](#folder-structure)
-- [Implementation Details (How?)](#implementation-details-how)
+- [Implementation (How?)](#implementation-how)
 - [Tools Used](#tools-used)
 
 ---
 
-## Project Motivation (Why?)
+## Motivation (Why?)
 
-1. **Feed Page**
-   - Students lack timely notifications for college events.
-   - A centralized feed to post and update all upcoming events for visibility.
-   - Event posting handled by authorized roles (Admin, Club President, Vice President) as per organization rules.
+1. **Feed Page**  
+   - Students often miss notifications about campus events.
+   - The feed centralizes upcoming event announcements, managed by Admin, President, or Vice President as per institutional rules.
 
-2. **Clubs Page**
-   - Students are unaware of the variety and number of clubs.
-   - Browse all clubs; apply to join (maximum 4 active applications per user).
-   - Club officers manage incoming applications.
+2. **Clubs Page**  
+   - Lack of visibility into available clubs and categories.
+   - Students can browse and apply (up to 4 clubs), with officers managing applications.
 
-3. **My Clubs Page**
-   - Accepted club applications are visible here.
-   - Users can apply for event-related leave.
+3. **My Clubs Page**  
+   - Accepted applications are shown here, enabling functionality like event leave requests.
 
-4. **Hackathons Page**
-   - Increases awareness of upcoming hackathons and eases team formation.
-   - Staff and club heads can post hackathon opportunities.
-   - "Find a team" sub-section for team formation with contact info.
+4. **Hackathons Page**  
+   - Students miss hackathon updates and face challenges in forming teams.
+   - Hackathons and team-up requests are posted by staff and club leaders.
 
-5. **Settings Page**
-   - View user information (Name, Semester, ERP Id, Branch/Dept, Club memberships and roles).
+5. **Settings Page**  
+   - Users can view personal details, including enrolled clubs and roles.
 
 ---
 
-## Project Overview (What?)
+## Overview (What?)
 
-1. **Login/Sign Up**
-   - Secure login for existing users (role-based authentication).
-   - Registration possible only with college email (OTP verification required).
-   - Registration form collects Name, Semester, Department, Branch, ERP Id (stored in SQL database).
+1. **Login/Sign Up**  
+   - Role-based login (students, staff, admins).
+   - Sign-up requires college email verification via OTP, collecting name, semester, department, and ERP Id (saved in SQL).
 
-2. **Feed Page**
-   - Posts publicly visible to all logged-in users.
-   - Interact with posts (Like, share link). 
-   - Posts can include a caption, photo, and optional link.
+2. **Feed Page**  
+   - Posts (caption, photo, link) visible to all logged-in users.
+   - Like and share functionalities.
 
-3. **Clubs Page**
-   - Displays all clubs and categories.
-   - Users can apply to max 4 clubs at a time.
-   - Club application form collects essential details and motivation.
+3. **Clubs Page**  
+   - Club details publicly visible; users can apply for up to 4 clubs.
+   - Application form requires motivation and basic info.
 
-4. **My Clubs**
-   - List of joined clubs and fellow members.
-   - "Event Leave" application workflow for class absences (approved by club and college authorities; notifications sent to HOD/coordinator via mail/SMS/WhatsApp or online application).
-   - "Leave Club" functionality with mandatory reason and notification upon approval.
+4. **My Clubs**  
+   - Displays joined clubs and their members.
+   - Apply for leave for events (workflow for multi-step approval and notification).
+   - Leave club by submitting a reason.
 
-5. **Hackathons**
-   - Announcements by admin/club heads.
-   - Team formation requests with contact details.
+5. **Hackathons**  
+   - Announcements by admins/club heads.
+   - Team-up posts with contact details.
 
-6. **Settings**
-   - Displays user profile and club roles.
+6. **Settings**  
+   - User profile and club information.
 
 ---
 
