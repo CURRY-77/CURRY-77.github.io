@@ -66,3 +66,13 @@ A web application for managing college clubs, events, and hackathons, enhancing 
 
 ## Folder Structure
 
+
+- `signup-signin/`: Authentication pages (login, account creation, password recovery).
+- `feed/`: Central event feed and posts.
+- `clubs/`: Individual pages for every club listed in the system.
+- `my-clubs/`: Personal dashboard for user’s joined clubs and related features.
+- `hackathons/`: Hackathon announcements and team formation utilities.
+- `settings/`: User's account settings, profile information, and preferences.
+
+
+
